@@ -88,7 +88,7 @@
    Verduras
 </header>
 
-<nav> <a href="file:///C:/xampp/htdocs/DW/ProyectoFinal/imagen.html">Volver al Inicio</a> </nav>
+<nav> <a href="https://marcusfilidor.github.io/fruteria/">Volver al Inicio</a> </nav>
 
 <div class="content">
 
