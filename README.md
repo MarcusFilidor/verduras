@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Verdulería - Verduras</title>
+    <title> El platano sonriente </title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -16,16 +16,17 @@
             background-color: #FFD700; /* Amarillo */
             padding: 20px;
             text-align: center;
-            font-size: 24px;
+            font-size: 50px;
             color: #000;
+            
         }
 
         .content {
-            padding: 20px;
+            padding: 50px;
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            gap: 20px;
+            gap: 30px;
         }
 
         .vegetable-card {
@@ -67,39 +68,109 @@
         .back-to-home:hover {
             background-color: #e6b800;
         }
+
+      nav {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            display: inline-block;
+            text-align: center;
+        }
+        nav:hover {
+            background-color: #F4D03F; /* amarillo */
+            color: black;
+
     </style>
 </head>
 <body>
 
 <header>
-    Verdulería - Verduras
+   Verduras
 </header>
 
+<nav> <a href="file:///C:/xampp/htdocs/DW/ProyectoFinal/imagen.html">Volver al Inicio</a> </nav>
+
 <div class="content">
-    <div class="vegetable-card">
-        <h3>Zanahoria</h3>
-        <p>Perfecta para ensaladas o guisos</p>
-    </div>
+
     <div class="vegetable-card">
         <h3>Lechuga</h3>
-        <p>Fresca y crujiente para tus ensaladas</p>
+        <img src="lechuga.jpg" style="height:115px;" > 
+        <p> $21.00 por kg </p>
     </div>
+
     <div class="vegetable-card">
         <h3>Tomate</h3>
-        <p>Ideal para salsas y ensaladas</p>
+        <img src="tomate.jpg" style="height:115px;" > 
+        <p> $34.80 por kg </p>
     </div>
+
     <div class="vegetable-card">
-        <h3>Brócoli</h3>
-        <p>Rico en nutrientes, ideal para cocer al vapor</p>
+        <h3>Zanahoria</h3>
+        <img src="zanahoria.jpg" style="height:115px;" > 
+        <p> $13.90 por kg </p>
     </div>
+
+    <div class="vegetable-card">
+        <h3>Acelga</h3>
+        <img src="acelga.jpg" style="height:115px;" > 
+        <p> $8.40 por kg </p>
+    </div>
+
     <div class="vegetable-card">
         <h3>Papa</h3>
-        <p>Versátil para todo tipo de platos</p>
+        <img src="papa.jpg" style="height:115px;" > 
+        <p> $41.90 por kg </p>
     </div>
+     
+     <div class="vegetable-card">
+        <h3>Ajo</h3>
+        <img src="ajo.jpg" style="height:115px;" > 
+        <p> $130.90 por kg </p>
+    </div>
+
+     <div class="vegetable-card">
+        <h3>Apio</h3>
+        <img src="apio.jpg" style="height:115px;" > 
+        <p> $10.90 por kg </p>
+    </div>
+
+       <div class="vegetable-card">
+        <h3>Brócoli</h3>
+        <img src="brocoli.jpg" style="height:115px;" > 
+        <p> $51.90 por kg </p>
+    </div>
+
+      <div class="vegetable-card">
+        <h3>Cebolla</h3>
+        <img src="cebolla.jpg" style="height:115px;" > 
+        <p> $59.80 por kg </p>
+    </div>
+
+       <div class="vegetable-card">
+        <h3>Coliflor</h3>
+        <img src="coliflor.jpg" style="height:115px;" > 
+        <p> $72.90 por kg </p>
+    </div>
+
+      <div class="vegetable-card">
+        <h3>Espinaca</h3>
+        <img src="espinaca.jpg" style="height:115px;" > 
+        <p> $110.90 por kg </p>
+    </div>
+
+      <div class="vegetable-card">
+        <h3>Pepino</h3>
+        <img src="pepino.jpg" style="height:115px;" > 
+        <p> $9.90 por kg </p>
+    </div>
+
+  
 </div>
 
+
 <footer>
-    <a href="index.html" class="back-to-home">Volver al Inicio</a>
+    <h2 text-algn="center">Frutería "El Plátano Riendo"</h2>
+    <p text-algn="center" > &copy; 2024 Todos los derechos reservados</p>
 </footer>
 
 </body>
